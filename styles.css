@@ -6,9 +6,8 @@
     padding: 20px 0;
     border-bottom: 1px solid #dbdbdb;
     position: relative;
-  }
-  
-  .box {
+}
+.box {
     display: flex;
     align-items: center;
     background: hsl(240, 12%, 95%);
@@ -16,9 +15,9 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     height: 50px;
     margin-bottom: 10px;
-  }
+}
   
-  .box input[type="text"] {
+.box input[type="text"] {
     border: none;
     background: none;
     outline: none;
@@ -26,9 +25,8 @@
     font-size: 16px;
     color: #333;
     flex-grow: 1;
-  }
-  
-  .search-button {
+}
+.search-button {
     border: none;
     background: hsl(212, 100%, 70%);
     color: #fff;
@@ -38,12 +36,10 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
-  
-  .search-button:hover {
+.search-button:hover {
     background: hsl(212, 100%, 60%);
   }
-  
-  .sign-in-button {
+.sign-in-button {
     background: none;
     border: none;
     font-size: 16px;
@@ -51,8 +47,8 @@
     color: #333;
     text-align: right;
     margin-top: 10px;
-  }
-  .sidebar{
+}
+.sidebar{
     position: fixed;
     top: 0;
     right: 0;
